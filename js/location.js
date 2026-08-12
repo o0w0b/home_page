@@ -89,7 +89,7 @@ async function getLocationSmart() {
     let ipData = null;
 
     try {
-      const ipRes = await fetch("https://ip-api.o0w0b.top/?lang=zh-CN");
+      const ipRes = await fetch("https://ipwho.is/?lang=zh-CN");
 
       ipData = await ipRes.json();
     } catch (e) {
